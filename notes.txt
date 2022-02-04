@@ -1,0 +1,24 @@
+Part 1:
+
+- extra large array is 
+
+insert 777.304291 ms
+append 4.181375 ms
+
+Results for the extraLargeArray
+insert 771.744708 ms
+append 6.593083 ms
+Results for the largeArray
+insert 306.042 μs
+append 6.115916 ms
+Results for the mediumArray
+insert 188.167 μs
+append 184.416 μs
+Results for the smallArray
+insert 6.542 μs
+append 4.417 μs
+Results for the tinyArray
+insert 16.084 μs
+append 2 μs
+
+The pattern that we see in these arrays is that as the numbers that are getting passed on to the array gets bigger, the times of the results get exponentially bigger. 
